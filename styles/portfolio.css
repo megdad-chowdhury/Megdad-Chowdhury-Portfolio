@@ -14,7 +14,6 @@ header{
     background: url(../images/developer.png) , url(../images/header_bg.png), #FFF8F3;
     background-position: top left, bottom right;
     background-repeat: no-repeat;
-    /* max-height: 837px; */
 }
 nav {
     width: 71%;
@@ -92,7 +91,7 @@ nav .menu a{
 
 #banner .banner-image img{
     max-width: 584px;
-    /* vertical-align: middle; */
+    vertical-align: middle;
 }
 
 #about, #skills, #resume{
@@ -104,7 +103,7 @@ nav .menu a{
     max-width: 1140px;
     margin: 0 auto;
     text-align: center;
-    background-color: #fae9db;
+    background-color: #FFF8F3;
     padding: 131px 156px;
 }
 
@@ -208,4 +207,52 @@ nav .menu a{
     font-size: 16px;
     line-height: 28px;
     color: #757575;
+}
+.text-center{
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer{
+    margin-top: 113px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+}
+.footer-container .social{
+    max-width: 562px;
+}
+.footer-container h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 700px;
+    color: #181818;
+}
+
+.footer-container .social p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.footer-container .icon a{
+    margin-right: 24px;
+}
+
+.footer-container form input[type="text"], .footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    line-height: 28px;
+    font-size: 16px;
 }
